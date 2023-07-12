@@ -26,10 +26,10 @@ def country_to_continent(country_name: str) -> str:
 # Connessione al DB
 
 mydb = mysql.connector.connect(
-  host="localhost",
-  user="cpsm",
-  password="Headband2+Designate+Subscribe+Graceful+Canary",
-  database="BloodGroup"
+  host = "YOUR HOST",
+  user = "YOUR USER",
+  password = "YOUR PASSWORD",
+  database = "YOUR DATABASES"
 )
 
 

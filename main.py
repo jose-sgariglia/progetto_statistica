@@ -9,10 +9,10 @@ from plotly.subplots import make_subplots
 
 # Collegamento al DB
 mydb = mysql.connector.connect(
-  host="localhost",
-  user="cpsm",
-  password="Headband2+Designate+Subscribe+Graceful+Canary",
-  database="BloodGroup"
+  host = "YOUR HOST",
+  user = "YOUR USER",
+  password = "YOUR PASSWORD",
+  database = "YOUR DATABASE"
 )
 
 
